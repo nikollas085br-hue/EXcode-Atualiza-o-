@@ -1,0 +1,16 @@
+EXcode 8.15 - Perguntas mais claras (teste da atualizacao automatica)
+
+app/src/main/java/br/com/provainteligente/Dialogs.kt
+  - Pergunta das chaves: os exemplos agora so demonstram (nao sao tocaveis) e tem legenda "ligada/desligada".
+MainActivity.kt
+  - A escolha e feita pelos botoes da janela: "Usar estilo EXcode" / "Usar padrao do celular".
+  - Aviso "App atualizado!" mostra as novidades da 8.15 (prova de que a atualizacao funcionou).
+I18n.kt / I18nEs.kt - traducoes (ingles e espanhol) dos textos novos.
+version.properties - versionCode 26 / versionName 8.15.
+CHECKSUMS.sha256 - valores novos (obrigatorio, senao o build falha).
+
+COMO TESTAR
+1. Instale a 8.14 no celular (ou deixe a que ja esta).
+2. Envie estes arquivos ao GitHub e espere o build criar a Release v8.15.
+3. Abra o app 8.14: Configuracoes mostra "Atualizacao disponivel (8.15)". Toque em Atualizar agora.
+4. Depois de instalar, abra o app: aparece "App atualizado!" com as novidades.
